@@ -9,7 +9,7 @@ const connectToDB = async (dbURI) => {
             underscored: true,
             timestamps: false,
         },
-        password:'admin'
+        password: 'admin'
     })
 
     try {
