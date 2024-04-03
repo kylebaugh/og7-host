@@ -1,0 +1,13 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm i -g n
+sudo n stable
+sudo npm i -g npm
+sudo npm i -g nodemon
+sudo npm i -g pm2
+
+
+
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 5678
